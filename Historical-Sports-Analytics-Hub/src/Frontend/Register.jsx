@@ -48,7 +48,7 @@ function Register() {
     };
 
     return (
-        <Container maxWidth="sm" sx={{ mt: 5 }} className="body">
+        <Container maxWidth="sm" className="body">
             <Box textAlign="center" mb={3} className="header">
                 <Typography variant="h4" component="h1" gutterBottom>
                     Historical Sports Analytics Hub
@@ -63,6 +63,7 @@ function Register() {
                     display: 'flex',
                     flexDirection: 'column',
                     gap: 2,
+                    width: 100%,
                 }}
             >
                 <TextField

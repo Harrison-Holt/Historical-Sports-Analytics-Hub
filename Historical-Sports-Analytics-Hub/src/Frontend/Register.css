@@ -4,7 +4,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
 }
 
 .header {
@@ -13,4 +16,5 @@
     justify-content: space-around;
     align-items: center;
     background-color: #87D4CC;
+    width: 100%; 
 }
