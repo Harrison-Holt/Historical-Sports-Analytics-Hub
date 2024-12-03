@@ -63,7 +63,7 @@ function Register() {
                     display: 'flex',
                     flexDirection: 'column',
                     gap: 2,
-                    width: 100%,
+                    width: '100%',
                 }}
             >
                 <TextField
