@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Container, Box, TextField, Typography, Button, Alert } from '@mui/material';
-import './Register.css'; 
+import './Register.css';
 
 function Register() {
     const [formData, setFormData] = useState({
@@ -48,8 +48,8 @@ function Register() {
     };
 
     return (
-        <Container maxWidth="sm" sx={{ mt: 5 }} className='body'>
-            <Box textAlign="center" mb={3} className='header'>
+        <Container maxWidth="sm" sx={{ mt: 5 }} className="body">
+            <Box textAlign="center" mb={3} className="header">
                 <Typography variant="h4" component="h1" gutterBottom>
                     Historical Sports Analytics Hub
                 </Typography>
@@ -92,8 +92,8 @@ function Register() {
                     Register
                 </Button>
             </Box>
-            <Box className='footer'>
-                <Typography sx={{ textAlign: center}}>&copy; 2024 Historical Sports Analytics Hub</Typography>
+            <Box className="footer">
+                <Typography sx={{ textAlign: 'center' }}>&copy; 2024 Historical Sports Analytics Hub</Typography>
             </Box>
         </Container>
     );
